@@ -1,0 +1,26 @@
+An implementation of Erik Dörnenburgs code toxicity plots that outputs
+an ugly table instead of a pretty graph.
+
+See https://erik.doernenburg.com/2008/11/how-toxic-is-your-code/
+See https://github.com/AdamNowotny/toxicity-charts
+
+Code toxicity is the sum of code smells in java code found using checkstyle.
+
+See http://checkstyle.sourceforge.net/
+
+The code smells used are:
+ - File length
+ - Method length
+ - Argument amount
+ - Cyclomatic complexity
+ - Anonymous method length
+ - Boolean complexity
+ - Class abstraction coupling
+ - Class fan-out complexity
+ - Nested if depth
+ - Nested try depth
+
+This package includes and uses Stuart Langridges sortable.js to make the table output sortable.
+See https://kryogenix.org/code/browser/sorttable/
+
+See Makefile for example usage.
